@@ -1,6 +1,7 @@
 
 .headerWrapper{
-    height: 64px;
+    z-index: 999;
+    height: var(--header-height);
     cursor: pointer;
     position: relative;
 }

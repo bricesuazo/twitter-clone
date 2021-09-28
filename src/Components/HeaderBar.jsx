@@ -1,12 +1,19 @@
 import './headerBar.css';
 import { FlareOutlined } from '@mui/icons-material';
 
-const HeaderBar = () => {
+const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+};
+
+const HeaderBar = ({headerTitle}) => {
     return (
         <div className="HeaderBar">
-            <div className="headerWrapper">
+            <div onClick={scrollToTop} className="headerWrapper">
                 <div className="header">
-                    <h3 className="headerTextSpan">Home</h3>
+                    <h3 className="headerTextSpan">{headerTitle}</h3>
                     <div className="headerIcon">
                         <FlareOutlined />
                     </div>

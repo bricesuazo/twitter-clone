@@ -1,15 +1,12 @@
 .TrendingContainer{
     width: 100%;
-    margin-top: 10px;
 }
 
-.trendingContainerWrapper{
-    background-color: var(--lightsout-bg-wrapper);
-    border-radius: var(--br-rounded);
-    overflow:hidden;
+.exploreTrendingContainerWrapper{
+    border-bottom: var(--border);
 }
 
-.trendingHeaderWrapper{
+.exploreTrendingHeaderWrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,26 +14,27 @@
     margin-bottom: 10px;
 }
 
-.trending{
+.exploreTrending{
     display: flex;
     flex-direction: column;
     cursor: pointer;
     padding: 10px var(--container-padding);
 }
-.trending:hover{
-    background-color: var(--lightsout-container-hover-color);
+.exploreTrending:hover{
+
 }
 
-.trendingSpanCountry{
+.exploreTrendingSpanCountry{
     font-size: 12px;
     color: var(--lightsout-text-gray);
 }
-.trendingSpanName{
+.exploreTrendingSpanName{
     font-weight: 700;
     
 }
-.trendingSpanNoOfTweet{
+.exploreTrendingSpanNoOfTweet{
     font-size: 12px;
     color: var(--lightsout-text-gray);
 
 }
+

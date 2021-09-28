@@ -7,8 +7,6 @@ import TweetText from '../Components/TweetText';
 import TrendsForYouContainer from '../Components/TrendsForYouContainer';
 import WhoToFollow from '../Components/WhoToFollow';
 
-
-
 const Home = () => {
     return (
         <div className="HomePage">
@@ -16,11 +14,8 @@ const Home = () => {
                 <MainBtnNav />
             </div>
             <div className="centerNavigation">
-                <HeaderBar />
+                <HeaderBar headerTitle="Home"/>
                 <PostTweetContainer />
-                <TweetText />
-                <TweetText />
-                <TweetText />
                 <TweetText />
                 <TweetText />
                 <TweetText />
@@ -28,8 +23,11 @@ const Home = () => {
             </div>
             <div className="rightNavigationWrapper">
                 <div className="rightNavigation">
-                    <SearchBar />
+                    <div className="stickySearchBarWrapper">
+                        <SearchBar />
+                    </div>
                     <TrendsForYouContainer />
+                    <WhoToFollow />
                     <WhoToFollow />
                 </div>
             </div>

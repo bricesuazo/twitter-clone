@@ -1,27 +1,35 @@
-import React from 'react'
+import '../App.css';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import MainBtnNav from '../Components/MainBtnNav';
 import SearchBar from '../Components/SearchBar';
-import TrendsForYouContainer from '../Components/TrendsForYouContainer';
 import WhoToFollow from '../Components/WhoToFollow';
+import ExploreHeaderImg from '../Components/ExploreHeaderImg';
+import ExploreTrendsForYouContainer from '../Components/ExploreTrendsForYouContainer';
+import ExploreWhatsHappening from '../Components/ExploreWhatsHappening';
 
 
 const Explore = () => {
     return (
-        <div className="HomePage">
+        <div className="ExplorePage">
             <div className="leftNavigation">
                 <MainBtnNav />
             </div>
             <div className="centerNavigation">
-                <div className="searchBarWrapper">
+                <div className="stickySearchBarWrapper">
                     <SearchBar className="searchBar"/>
-                    <SettingsOutlinedIcon />
+                    <div className="SettingsOutlinedIcon">
+                        <SettingsOutlinedIcon />
+                    </div>
                 </div>
-                
+                <ExploreHeaderImg />
+                <ExploreTrendsForYouContainer />
+                <ExploreWhatsHappening />
             </div>
-            <div className="rightNavigation">
-                <TrendsForYouContainer />
-                <WhoToFollow />
+            <div className="rightNavigationWrapper">
+                <div className="rightNavigation">
+                    <WhoToFollow />
+                </div>
+
             </div>
         </div>
     )

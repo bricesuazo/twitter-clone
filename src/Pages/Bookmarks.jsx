@@ -3,7 +3,6 @@ import SearchBar from '../Components/SearchBar';
 import HeaderBar from '../Components/HeaderBar';
 import TrendsForYouContainer from '../Components/TrendsForYouContainer';
 import WhoToFollow from '../Components/WhoToFollow';
-import ProfileContainer from '../Components/ProfileContainer';
 
 const Bookmarks = () => {
     return (
@@ -12,8 +11,7 @@ const Bookmarks = () => {
                 <MainBtnNav />
             </div>
             <div className="centerNavigation">
-                <HeaderBar />
-                <ProfileContainer />
+                <HeaderBar headerTitle="Bookmarks"/>
             </div>
             <div className="rightNavigation">
                 <SearchBar />

@@ -1,0 +1,38 @@
+.ProfileContainer{
+    position: relative;
+
+}
+
+.profileContainerImgWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profileHeaderImg{
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.profilePictureImg{
+    width: 135px;
+    height: 135px;
+    /* position: absolute; */
+    left: 12px;
+    bottom: -67px;
+    border: 5px solid var(--lightsout-bg);
+}
+
+.editProfileBtn{
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    width: 200px;
+    border: 5px solid #fff;
+    border-radius: var(--br-circle);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

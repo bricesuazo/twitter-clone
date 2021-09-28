@@ -6,6 +6,7 @@
 .whoToFollowWrapper{
     background-color: var(--lightsout-bg-wrapper);
     border-radius: var(--br-rounded);
+    overflow:hidden;
 }
 
 .whoToFollowHeader{
@@ -29,20 +30,6 @@
 }
 
 /* ------------------------------------------ */
-
-.seeMoreWrapper{
-    cursor: pointer;
-    padding: 15px var(--container-padding);
-}
-.seeMoreWrapper:hover{
-    background-color: var(--lightsout-container-hover-color);
-    border-radius: 0 0 var(--br-rounded) var(--br-rounded);
-}
-
-.seeMore{
-    color: var(--twitter-color-main);
-}
-
 
 .whoToFollowAccountWrapper{
     display: flex;

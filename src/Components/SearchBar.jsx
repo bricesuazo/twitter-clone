@@ -3,12 +3,10 @@ import './searchBar.css'
 
 const SearchBar = () => {
     return (
-        <div>
-            <div className="SearchBar">
-                <div className="searchBarWrapper">
-                    <SearchOutlined className="searchBarIcon"/>
-                    <input type="text" placeholder="Search Twitter" className="searchBarInput"/>
-                </div>
+        <div className="SearchBar">
+            <div className="searchBarWrapper">
+                <SearchOutlined className="searchBarIcon"/>
+                <input type="text" placeholder="Search Twitter" className="searchBarInput"/>
             </div>
         </div>
     )

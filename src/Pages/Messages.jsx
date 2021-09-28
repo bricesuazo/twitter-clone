@@ -10,7 +10,7 @@ const Messages = () => {
                 <MainBtnNav />
             </div>
             <div style={{ flex: 2}} className="centerNavigation">
-                <HeaderBar />
+                <HeaderBar headerTitle="Messages"/>
             </div>
             <div style={{ flex: 3}} className="rightNavigation">
                 <SearchBar />
