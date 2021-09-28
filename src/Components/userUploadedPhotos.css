@@ -1,0 +1,19 @@
+.UserUploadedPhotosWrapper{
+    width: 100%;
+    height: 100%;
+    border-radius: var(--br-rounded);
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    grid-auto-rows: minmax(auto, auto);
+    gap: 1px;
+    overflow: hidden;
+    border: var(--border);
+}
+.userUploadedPhoto{
+    height: 123px;
+    width: 123px;
+    display: inline-grid;
+    border-radius: 0;
+    object-fit: cover;
+    cursor: pointer;
+}

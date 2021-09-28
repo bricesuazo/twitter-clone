@@ -1,0 +1,89 @@
+.WhoToFollow{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.whoToFollowWrapper{
+    background-color: var(--lightsout-bg-wrapper);
+    border-radius: var(--br-rounded);
+}
+
+.whoToFollowHeader{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+
+.whoToFollowAccountWrapper{
+    padding: 10px var(--container-padding);
+}
+
+.whoToFollowAccountWrapper:hover{
+    background-color: var(--lightsout-container-hover-color);
+}
+
+.whoToFollowAccountProfilePic{
+    width: var(--profile-pic-size);
+    height: var(--profile-pic-size);
+}
+
+/* ------------------------------------------ */
+
+.seeMoreWrapper{
+    cursor: pointer;
+    padding: 15px var(--container-padding);
+}
+.seeMoreWrapper:hover{
+    background-color: var(--lightsout-container-hover-color);
+    border-radius: 0 0 var(--br-rounded) var(--br-rounded);
+}
+
+.seeMore{
+    color: var(--twitter-color-main);
+}
+
+
+.whoToFollowAccountWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whoToFollowAccount{
+    display: flex;
+    gap: var(--gap);
+    cursor: pointer;
+}
+.whoToFollowAccountInfo{
+}
+
+.whoToFollowAccountNameWrapper{
+    display: flex;
+    gap: var(--gap);
+}
+.whoToFollowAccountName{
+    font-weight: 700;
+}
+.whoToFollowAccountName:hover{
+    text-decoration: underline;
+}
+
+.whoToFollowAccountUsername{
+    font-size: 14px;
+    color: var(--lightsout-text-gray);
+}
+
+.whoToFollowAccountFollowBtn{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #FFF;
+    color: #000;
+    padding: 8px 12px;
+    border-radius: var(--br-circle);
+    cursor: pointer;
+    transition: background-color var(--transition-duration);
+}
+.whoToFollowAccountFollowBtn:hover{
+    background-color: rgb(204, 204, 204);
+}

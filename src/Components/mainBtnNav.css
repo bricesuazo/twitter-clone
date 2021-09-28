@@ -1,0 +1,152 @@
+.MainBtnNav{
+    min-width: 318px;
+    position: fixed;
+    top: 0;
+}
+.MainBtnNavWrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: var(--container-padding);
+    
+}
+
+.logoWrapper{
+    width:fit-content;
+    cursor: pointer;
+    padding: 0 var(--container-padding);
+    margin-bottom: 10px;
+}
+
+.btnsWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btnWrapper{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 10px var(--container-padding) 10px 10px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+.btnWrapper:hover{
+    background-color: var(--lightsout-bg-wrapper);
+    border-radius: var(--br-circle);
+}
+.btnWrapper > svg{
+    margin: 0 10px;
+}
+.btnWrapper > span{
+    font-size: 18px;
+    margin-left: 10px;
+    
+}
+
+
+.btnTweet{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: var(--twitter-color-main);
+    padding: 16px;
+    border-radius: var(--br-circle);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color var(--transition-duration);
+}
+.btnTweet:hover{
+    background-color: var(--twitter-color-main-hover);
+}
+/* ------------------------------------------------- */
+
+.btnProfileWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.btnProfileWrapper:hover{
+    background-color: var(--lightsout-bg-wrapper);
+    border-radius: var(--br-circle);
+}
+
+.btnProfile{
+    display: flex;
+    gap: 12px;
+}
+
+.btnProfilePic{
+    width: 38px;
+    height: 38px;
+}
+
+.btnProfileInfoWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnProfileName{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btnProfileUsername{
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--lightsout-text-gray);
+    
+}
+
+
+
+
+
+.btnWrapper.profile{
+    position: relative;
+}
+
+
+.ProfilePopUp{
+    width: 200px;
+    position: absolute;
+    bottom: 50px;
+    background-color: var(--lightsout-bg-wrapper);
+}
+
+.ProfilePopUpWrapper{
+
+}
+
+.ProfilePopUpUpperPartWrapper{
+    border-bottom: var(--border);
+}
+.ProfilePopUpLowerPartWrapper{
+
+}
+
+.ProfilePopBtn{
+    padding: 10px var(--container-padding);
+}
+.ProfilePopBtn:hover{
+    background-color: var(--lightsout-hover-color);
+
+}
+
+.ProfilePopSpan{
+
+}
+.ProfilePopIcon{
+
+}

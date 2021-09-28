@@ -1,0 +1,24 @@
+.SearchBar{
+    margin: 10px 0;
+    width: 100%;
+}
+
+.searchBarWrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.searchBarInput{
+    width: 100%;
+    background-color: var(--lightsout-bg-wrapper);
+    border: none;
+    outline: none;
+    padding: var(--container-padding) var(--container-padding) var(--container-padding) 50px;
+    border-radius: var(--br-circle);
+}
+
+.searchBarIcon{
+    position: absolute;
+    left: 22px;
+}

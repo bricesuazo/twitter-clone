@@ -1,0 +1,61 @@
+.tweetTextNavigation{
+    cursor: pointer;
+    padding: var(--container-padding);
+    font-size: 16px;
+}
+
+.tweetTextNavigationWrapper{
+    display: flex;
+    gap: var(--gap);
+}
+.tweetTextHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.tweetProfilePic{
+    width: var(--profile-pic-size);
+    height: var(--profile-pic-size);
+}
+
+.tweetUserInfo{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    margin: 2px 0px 6px 0px;
+}
+
+.tweetText{
+    word-wrap: break-word;
+}
+
+.tweetUsername, .tweetBullet, .tweetTimeAgo{
+    color: gray;
+}
+.tweetName{
+    font-weight: 700;
+}
+.tweetName:hover, .tweetTimeAgo:hover{
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------- */
+
+.tweetBtnsWrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px
+}
+
+.tweetBtn{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--br-circle);
+}
+.tweetBtn:hover{
+    background-color: var(--lightsout-hover-color);
+}

@@ -1,0 +1,54 @@
+.TrendingContainer{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.trendingContainerWrapper{
+    background-color: var(--lightsout-bg-wrapper);
+    border-radius: var(--br-rounded);
+}
+
+.trendingHeaderWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px var(--container-padding);
+}
+.trending:hover{
+    background-color: var(--lightsout-container-hover-color);
+}
+
+.trendingSpanCountry{
+    font-size: 12px;
+    color: var(--lightsout-text-gray);
+}
+.trendingSpanName{
+    font-weight: 700;
+    
+}
+.trendingSpanNoOfTweet{
+    font-size: 12px;
+    color: var(--lightsout-text-gray);
+
+}
+
+.seeMoreWrapper{
+    cursor: pointer;
+    padding: 15px var(--container-padding);
+}
+.seeMoreWrapper:hover{
+    background-color: var(--lightsout-container-hover-color);
+    border-radius: 0 0 var(--br-rounded) var(--br-rounded);
+}
+
+.seeMore{
+    color: var(--twitter-color-main);
+}

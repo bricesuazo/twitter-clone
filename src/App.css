@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --lightsout-bg: #000000;
+    --lightsout-bg-wrapper: #15181C;
+    --lightsout-text-gray: #818181;
+    --lightsout-hover-color:rgb(63, 63, 63);
+    --lightsout-container-hover-color:rgb(30, 30, 30);
+
+    --twitter-color-main: #1D9BF0;
+    --twitter-color-main-hover: #1d8fdb;
+
+    --br-rounded: 20px;
+    --br-circle: 100px;
+
+    --border: 1px solid rgb(50, 50, 50);
+
+    --transition-duration: .2s ease;
+
+    --container-padding: 20px;
+    --gap: 8px;
+
+    --profile-pic-size: 42px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    border-radius: var(--br-circle);
+    object-fit: cover;
+}
+
+body{
+    background-color: var(--lightsout-bg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    
+}
+
+/* ----------------------------------------- */
+
+.HomePage, .ExplorePage, .NotificationsPage, .MessagesPage, .Bookmarks, .ListsPage, .ProfilePage {
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftNavigation{
+    min-width: 322px;
+    border-right: var(--border);
+}
+
+.centerNavigation{
+    /* flex: 3; */
+    min-width: 606px;
+}
+
+.rightNavigation{
+    min-width: 392px;
+    /* flex: 1.75; */
+    border-left: var(--border);
+    padding: 0 var(--container-padding);
+}
+
+
+
+.postTweetContainer{
+    border-bottom: var(--border);
+}
+
+.tweetTextNavigation{
+    border-bottom: var(--border);
+}
