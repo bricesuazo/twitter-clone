@@ -6,6 +6,7 @@
     --lightsout-text-gray: #818181;
     --lightsout-hover-color:rgb(63, 63, 63);
     --lightsout-container-hover-color:rgb(30, 30, 30);
+    --lightsout-container-hover-color-dark: rgba(217, 217, 217, 0.1);
 
     --twitter-color-main: #1D9BF0;
     --twitter-color-main-hover: #1d8fdb;
@@ -99,11 +100,6 @@ body{
     justify-content: center;
     cursor: pointer;
     margin: 0 10px;
-    padding: 10px;
-}
-.SettingsOutlinedIcon:hover{
-    background-color: var(--lightsout-hover-color);
-    border-radius: var(--br-circle);
 }
 
 

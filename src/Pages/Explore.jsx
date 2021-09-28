@@ -7,6 +7,10 @@ import ExploreHeaderImg from '../Components/ExploreHeaderImg';
 import ExploreTrendsForYouContainer from '../Components/ExploreTrendsForYouContainer';
 import ExploreWhatsHappening from '../Components/ExploreWhatsHappening';
 
+const iconStyles = {
+    padding: 1,
+    fontSize: 40,
+}
 
 const Explore = () => {
     return (
@@ -18,7 +22,7 @@ const Explore = () => {
                 <div className="stickySearchBarWrapper">
                     <SearchBar className="searchBar"/>
                     <div className="SettingsOutlinedIcon">
-                        <SettingsOutlinedIcon />
+                        <SettingsOutlinedIcon sx={iconStyles} className="headerIconIcon"/>
                     </div>
                 </div>
                 <ExploreHeaderImg />

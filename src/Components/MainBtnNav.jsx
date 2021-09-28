@@ -3,6 +3,7 @@ import React from 'react'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { BookmarkBorderOutlined, FeaturedPlayListOutlined, HomeOutlined, MailOutlineOutlined, MoreHorizOutlined, NotificationsNoneOutlined, PersonOutlined, TagOutlined } from '@mui/icons-material';
 import { Link } from "react-router-dom";
+import MoreBtnNav from './MoreBtnNav';
 
 const styles = {
     logo: {
@@ -13,53 +14,6 @@ const styles = {
     },
   
 };
-
-const ProfilePopUp = () => (
-    <div className="ProfilePopUp">
-        <div className="ProfilePopUpWrapper">
-            <div className="ProfilePopUpUpperPartWrapper">
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Topics</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Moments</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Newsletter</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Twitter Ads</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Analytics</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-            </div>
-            <div className="ProfilePopUpLowerPartWrapper">
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Settings and Privacy</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Help Center</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Display</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-                <div className="ProfilePopBtn">
-                    <span className="ProfilePopSpan">Keyboard Shortcut</span>
-                    <span className="ProfilePopIcon"></span>
-                </div>
-            </div>
-        </div>
-    </div>
-)
 
 const MainBtnNav = () => {
     const [show, toggleShow] = React.useState(false);
@@ -99,7 +53,7 @@ const MainBtnNav = () => {
                         <span>Profile</span>
                     </Link>
                     <div onClick={() => toggleShow(!show)} className="btnWrapper profile">
-                        { show && <ProfilePopUp /> }   
+                        { show && <MoreBtnNav /> }   
                         <MoreHorizOutlined sx= { styles.btnIcon }/>
                         <span>More</span>
                     </div>

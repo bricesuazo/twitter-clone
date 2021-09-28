@@ -1,0 +1,42 @@
+
+.btnWrapper.profile{
+    position: relative;
+}
+
+
+.ProfilePopUp{
+    width: 240px;
+    position: absolute;
+    bottom: 50px;
+    background-color: var(--lightsout-bg-wrapper);
+    z-index: 9999;
+}
+
+.ProfilePopUpWrapper{
+
+}
+
+.ProfilePopUpUpperPartWrapper{
+    border-bottom: var(--border);
+}
+.ProfilePopUpLowerPartWrapper{
+
+}
+
+.ProfilePopBtn{
+    display: flex;
+    align-items: center;
+    padding: 14px var(--container-padding);
+    gap: 10px;
+}
+.ProfilePopBtn:hover{
+    background-color: var(--lightsout-hover-color);
+
+}
+
+.ProfilePopSpan{
+
+}
+.ProfilePopIcon{
+
+}

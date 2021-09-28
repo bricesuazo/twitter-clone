@@ -5,6 +5,7 @@ import TrendsForYouContainer from '../Components/TrendsForYouContainer';
 import WhoToFollow from '../Components/WhoToFollow';
 import UserUploadedPhotos from '../Components/UserUploadedPhotos';
 import ProfileContainer from '../Components/ProfileContainer';
+import ProfileContent from '../Components/ProfileContent';
 
 const Profile = () => {
     return (
@@ -13,8 +14,9 @@ const Profile = () => {
                 <MainBtnNav />
             </div>
             <div className="centerNavigation">
-                <HeaderBar />
+                <HeaderBar headerTitle="Profile"/>
                 <ProfileContainer />
+                <ProfileContent />
             </div>
             <div className="rightNavigation">
                 <SearchBar />

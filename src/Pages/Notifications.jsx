@@ -4,7 +4,7 @@ import SearchBar from '../Components/SearchBar';
 import HeaderBar from '../Components/HeaderBar';
 import TrendsForYouContainer from '../Components/TrendsForYouContainer';
 import WhoToFollow from '../Components/WhoToFollow';
-import NotificationsAllContainer from '../Components/NotificationsAllContainer';
+import NotificationsContainer from '../Components/NotificationsContainer';
 
 const Notifications = () => {
     return (
@@ -14,7 +14,7 @@ const Notifications = () => {
             </div>
             <div className="centerNavigation">
                 <HeaderBar headerTitle="Notifications"/>
-                <NotificationsAllContainer />
+                <NotificationsContainer />
             </div>
             <div className="rightNavigation">
                 <SearchBar />
