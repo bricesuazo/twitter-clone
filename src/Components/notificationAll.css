@@ -1,0 +1,51 @@
+.notificationContainerWrapper{
+    border-bottom: var(--border);
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    padding: var(--container-padding) 0;
+    cursor: pointer;
+}
+
+.notifContainerLeftWrapper{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.notifContainerRightWrapper{
+    flex: 8;
+}
+.notifContainerRightProfilePicWrapper{
+    margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+}
+.notifContainerRightProfilePic{
+    width: calc(var(--profile-pic-size) - 6px);
+    border: var(--border);
+}
+
+.notifContainerRightHeaderTextWrapper{
+    
+}
+.notifContainerRightHeaderTextUsername{
+    font-weight: 700;
+
+}
+.notifContainerRightHeaderTextStatus{
+
+}
+
+
+.notifContainerRightTweetWrapper{
+    display: flex;
+    margin-top: 10px;
+}
+.notifContainerRightTweetCaption{
+    color: var(--lightsout-text-gray);
+    
+}
+.notifContainerRightTweetLink{
+    margin-left: 4px;
+    color: var(--lightsout-text-gray);
+}

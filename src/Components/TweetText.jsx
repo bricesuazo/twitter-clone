@@ -8,7 +8,7 @@ const styles = {
     },
 }
 
-const TweetText = () => {
+const TweetText = ({type}) => {
     return (
         <div className="tweetTextNavigation">
             <div className="tweetTextNavigationWrapper">
@@ -23,6 +23,16 @@ const TweetText = () => {
                         </div>
                         <MoreHorizOutlined />
                     </div>
+
+                    {type === "mention" ? 
+                    (
+                    <div className="MentionReplyingToWrapper">
+                        <span className="MentionReplyingToText">Replying to</span>
+                        <span className="MentionReplyingToUsername">@brice_suazo</span>
+                    </div>
+                    ) : (
+                        null
+                    )}
 
                     <span className="tweetText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi incidunt minus at quia error saepe natus quasi beatae voluptas perferendis!</span>
                     

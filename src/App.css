@@ -11,6 +11,7 @@
     --twitter-color-main: #1D9BF0;
     --twitter-color-main-hover: #1d8fdb;
 
+    --tweet-font-size: 15px;
     --br-rounded: 20px;
     --br-circle: 100px;
 
@@ -55,6 +56,7 @@ body{
     display: flex;
     justify-content: center;
 }
+
 
 .leftNavigation{
     min-width: 322px;

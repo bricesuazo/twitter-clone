@@ -1,7 +1,7 @@
 .tweetTextNavigation{
     cursor: pointer;
     padding: var(--container-padding);
-    font-size: 16px;
+    font-size: var(--tweet-font-size);
 }
 
 .tweetTextNavigationWrapper{
@@ -25,6 +25,31 @@
     gap: 6px;
     margin: 2px 0px 6px 0px;
 }
+
+
+/* ----------------------------------------------- */
+
+.MentionReplyingToWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin-top: -6px;
+    margin-bottom: 2px;
+}
+
+.MentionReplyingToText{
+    color: var(--lightsout-text-gray);
+}
+
+.MentionReplyingToUsername{
+    color: var(--twitter-color-main);
+}
+.MentionReplyingToUsername:hover{
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------- */
+
 
 .tweetText{
     word-wrap: break-word;

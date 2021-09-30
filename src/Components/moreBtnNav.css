@@ -5,11 +5,14 @@
 
 
 .ProfilePopUp{
-    width: 240px;
+    width: 215px;
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
+    left: 0px;
     background-color: var(--lightsout-bg-wrapper);
     z-index: 9999;
+    font-size: var(--tweet-font-size);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
 }
 
 .ProfilePopUpWrapper{
@@ -18,6 +21,8 @@
 
 .ProfilePopUpUpperPartWrapper{
     border-bottom: var(--border);
+    padding-bottom: 2px;
+    margin-bottom: 2px;
 }
 .ProfilePopUpLowerPartWrapper{
 
@@ -26,7 +31,7 @@
 .ProfilePopBtn{
     display: flex;
     align-items: center;
-    padding: 14px var(--container-padding);
+    padding: 12px var(--container-padding);
     gap: 10px;
 }
 .ProfilePopBtn:hover{
@@ -38,5 +43,4 @@
 
 }
 .ProfilePopIcon{
-
 }
