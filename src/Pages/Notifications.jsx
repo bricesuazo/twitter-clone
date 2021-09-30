@@ -1,4 +1,3 @@
-import React from 'react'
 import MainBtnNav from '../Components/MainBtnNav';
 import SearchBar from '../Components/SearchBar';
 import HeaderBar from '../Components/HeaderBar';

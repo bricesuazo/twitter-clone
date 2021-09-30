@@ -1,5 +1,5 @@
 import './headerBar.css';
-import { ArrowBackOutlined, EmailOutlined, FlareOutlined, MoreHorizOutlined, PostAddOutlined, SettingsOutlined } from '@mui/icons-material';
+import { EmailOutlined, FlareOutlined, MoreHorizOutlined, PostAddOutlined, SettingsOutlined } from '@mui/icons-material';
 
 const scrollToTop = () => {
     window.scrollTo({
