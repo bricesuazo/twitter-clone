@@ -1,1 +1,0 @@
-This is just a frontend clone of Twitter.
